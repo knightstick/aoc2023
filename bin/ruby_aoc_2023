@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'dry/cli'
+require 'ruby_aoc_2023/cli'
+
+Dry::CLI.new(RubyAoc2023::CLI::Commands).call

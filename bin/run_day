@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'ruby_aoc_2023/day_runner'
+
+part1, part2 = RubyAoc2023.run_day(day: nil)
+puts part1.answer
+puts "(took #{part1.runtime} seconds)"
+puts part2.answer
+puts "(took #{part2.runtime} seconds)"
