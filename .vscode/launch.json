@@ -21,6 +21,7 @@
       "name": "Debug all specs",
       "request": "launch",
       "program": "bundle exec rspec",
+      "internalConsoleOptions": "openOnSessionStart",
     },
     {
       "type": "ruby_lsp",
